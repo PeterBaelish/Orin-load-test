@@ -1,0 +1,921 @@
+{
+    "file_version": 1,
+    "cmdline:": "./cyclictest -a 0-10 -d 0 --json=cyclicout --priospread -i 1000 -m --priority=99 --policy=fifo -q -t 100",
+    "rt_test_version:": "2.30",
+    "start_time": "Sat, 15 Jan 2022 22:59:33 +0000",
+    "end_time": "Sat, 15 Jan 2022 23:01:29 +0000",
+    "return_code": 0,
+    "sysinfo": {
+      "sysname": "Linux",
+      "nodename": "tegra-ubuntu",
+      "release": "5.10.104-rt63-tegra",
+      "version": "#1 SMP PREEMPT RT Thu Jun 9 05:19:25 CST 2022",
+      "machine": "aarch64",
+      "realtime": 1
+    },
+    "num_threads": 100,
+    "resolution_in_ns": 0,
+    "thread": {
+      "0": {
+        "histogram": {      },
+        "cycles": 116066,
+        "min": 2,
+        "max": 30,
+        "avg": 6.16,
+        "cpu": 0,
+        "node": -1
+      },
+      "1": {
+        "histogram": {      },
+        "cycles": 115591,
+        "min": 2,
+        "max": 40,
+        "avg": 8.69,
+        "cpu": 1,
+        "node": -1
+      },
+      "2": {
+        "histogram": {      },
+        "cycles": 116004,
+        "min": 2,
+        "max": 31,
+        "avg": 8.93,
+        "cpu": 2,
+        "node": -1
+      },
+      "3": {
+        "histogram": {      },
+        "cycles": 116056,
+        "min": 2,
+        "max": 41,
+        "avg": 8.31,
+        "cpu": 3,
+        "node": -1
+      },
+      "4": {
+        "histogram": {      },
+        "cycles": 115915,
+        "min": 2,
+        "max": 27,
+        "avg": 6.01,
+        "cpu": 4,
+        "node": -1
+      },
+      "5": {
+        "histogram": {      },
+        "cycles": 116031,
+        "min": 2,
+        "max": 24,
+        "avg": 5.70,
+        "cpu": 5,
+        "node": -1
+      },
+      "6": {
+        "histogram": {      },
+        "cycles": 116036,
+        "min": 2,
+        "max": 19,
+        "avg": 5.30,
+        "cpu": 6,
+        "node": -1
+      },
+      "7": {
+        "histogram": {      },
+        "cycles": 116043,
+        "min": 2,
+        "max": 21,
+        "avg": 5.39,
+        "cpu": 7,
+        "node": -1
+      },
+      "8": {
+        "histogram": {      },
+        "cycles": 115982,
+        "min": 2,
+        "max": 25,
+        "avg": 6.55,
+        "cpu": 8,
+        "node": -1
+      },
+      "9": {
+        "histogram": {      },
+        "cycles": 115918,
+        "min": 2,
+        "max": 32,
+        "avg": 6.86,
+        "cpu": 9,
+        "node": -1
+      },
+      "10": {
+        "histogram": {      },
+        "cycles": 115960,
+        "min": 2,
+        "max": 25,
+        "avg": 5.22,
+        "cpu": 10,
+        "node": -1
+      },
+      "11": {
+        "histogram": {      },
+        "cycles": 116030,
+        "min": 2,
+        "max": 37,
+        "avg": 5.32,
+        "cpu": 0,
+        "node": -1
+      },
+      "12": {
+        "histogram": {      },
+        "cycles": 115591,
+        "min": 2,
+        "max": 48,
+        "avg": 4.15,
+        "cpu": 1,
+        "node": -1
+      },
+      "13": {
+        "histogram": {      },
+        "cycles": 116004,
+        "min": 2,
+        "max": 26,
+        "avg": 4.84,
+        "cpu": 2,
+        "node": -1
+      },
+      "14": {
+        "histogram": {      },
+        "cycles": 116019,
+        "min": 2,
+        "max": 40,
+        "avg": 6.56,
+        "cpu": 3,
+        "node": -1
+      },
+      "15": {
+        "histogram": {      },
+        "cycles": 115915,
+        "min": 2,
+        "max": 27,
+        "avg": 3.58,
+        "cpu": 4,
+        "node": -1
+      },
+      "16": {
+        "histogram": {      },
+        "cycles": 116013,
+        "min": 1,
+        "max": 23,
+        "avg": 5.03,
+        "cpu": 5,
+        "node": -1
+      },
+      "17": {
+        "histogram": {      },
+        "cycles": 116009,
+        "min": 2,
+        "max": 25,
+        "avg": 5.76,
+        "cpu": 6,
+        "node": -1
+      },
+      "18": {
+        "histogram": {      },
+        "cycles": 116006,
+        "min": 2,
+        "max": 19,
+        "avg": 5.61,
+        "cpu": 7,
+        "node": -1
+      },
+      "19": {
+        "histogram": {      },
+        "cycles": 115982,
+        "min": 2,
+        "max": 20,
+        "avg": 3.66,
+        "cpu": 8,
+        "node": -1
+      },
+      "20": {
+        "histogram": {      },
+        "cycles": 115918,
+        "min": 2,
+        "max": 28,
+        "avg": 3.85,
+        "cpu": 9,
+        "node": -1
+      },
+      "21": {
+        "histogram": {      },
+        "cycles": 115960,
+        "min": 2,
+        "max": 17,
+        "avg": 3.73,
+        "cpu": 10,
+        "node": -1
+      },
+      "22": {
+        "histogram": {      },
+        "cycles": 115993,
+        "min": 2,
+        "max": 39,
+        "avg": 5.58,
+        "cpu": 0,
+        "node": -1
+      },
+      "23": {
+        "histogram": {      },
+        "cycles": 115591,
+        "min": 2,
+        "max": 50,
+        "avg": 3.71,
+        "cpu": 1,
+        "node": -1
+      },
+      "24": {
+        "histogram": {      },
+        "cycles": 115986,
+        "min": 2,
+        "max": 17,
+        "avg": 6.40,
+        "cpu": 2,
+        "node": -1
+      },
+      "25": {
+        "histogram": {      },
+        "cycles": 115982,
+        "min": 2,
+        "max": 33,
+        "avg": 4.14,
+        "cpu": 3,
+        "node": -1
+      },
+      "26": {
+        "histogram": {      },
+        "cycles": 115915,
+        "min": 2,
+        "max": 40,
+        "avg": 5.61,
+        "cpu": 4,
+        "node": -1
+      },
+      "27": {
+        "histogram": {      },
+        "cycles": 115976,
+        "min": 2,
+        "max": 24,
+        "avg": 5.65,
+        "cpu": 5,
+        "node": -1
+      },
+      "28": {
+        "histogram": {      },
+        "cycles": 115973,
+        "min": 2,
+        "max": 18,
+        "avg": 5.23,
+        "cpu": 6,
+        "node": -1
+      },
+      "29": {
+        "histogram": {      },
+        "cycles": 115969,
+        "min": 2,
+        "max": 29,
+        "avg": 5.51,
+        "cpu": 7,
+        "node": -1
+      },
+      "30": {
+        "histogram": {      },
+        "cycles": 115966,
+        "min": 2,
+        "max": 24,
+        "avg": 6.39,
+        "cpu": 8,
+        "node": -1
+      },
+      "31": {
+        "histogram": {      },
+        "cycles": 115918,
+        "min": 1,
+        "max": 23,
+        "avg": 3.14,
+        "cpu": 9,
+        "node": -1
+      },
+      "32": {
+        "histogram": {      },
+        "cycles": 115959,
+        "min": 3,
+        "max": 24,
+        "avg": 6.43,
+        "cpu": 10,
+        "node": -1
+      },
+      "33": {
+        "histogram": {      },
+        "cycles": 115956,
+        "min": 2,
+        "max": 32,
+        "avg": 7.03,
+        "cpu": 0,
+        "node": -1
+      },
+      "34": {
+        "histogram": {      },
+        "cycles": 115591,
+        "min": 2,
+        "max": 46,
+        "avg": 3.66,
+        "cpu": 1,
+        "node": -1
+      },
+      "35": {
+        "histogram": {      },
+        "cycles": 115950,
+        "min": 2,
+        "max": 25,
+        "avg": 6.00,
+        "cpu": 2,
+        "node": -1
+      },
+      "36": {
+        "histogram": {      },
+        "cycles": 115946,
+        "min": 2,
+        "max": 39,
+        "avg": 7.65,
+        "cpu": 3,
+        "node": -1
+      },
+      "37": {
+        "histogram": {      },
+        "cycles": 115915,
+        "min": 2,
+        "max": 35,
+        "avg": 4.33,
+        "cpu": 4,
+        "node": -1
+      },
+      "38": {
+        "histogram": {      },
+        "cycles": 115940,
+        "min": 2,
+        "max": 35,
+        "avg": 10.90,
+        "cpu": 5,
+        "node": -1
+      },
+      "39": {
+        "histogram": {      },
+        "cycles": 115936,
+        "min": 2,
+        "max": 24,
+        "avg": 6.06,
+        "cpu": 6,
+        "node": -1
+      },
+      "40": {
+        "histogram": {      },
+        "cycles": 115933,
+        "min": 3,
+        "max": 23,
+        "avg": 5.84,
+        "cpu": 7,
+        "node": -1
+      },
+      "41": {
+        "histogram": {      },
+        "cycles": 115930,
+        "min": 2,
+        "max": 25,
+        "avg": 5.74,
+        "cpu": 8,
+        "node": -1
+      },
+      "42": {
+        "histogram": {      },
+        "cycles": 115918,
+        "min": 1,
+        "max": 23,
+        "avg": 3.23,
+        "cpu": 9,
+        "node": -1
+      },
+      "43": {
+        "histogram": {      },
+        "cycles": 115923,
+        "min": 2,
+        "max": 24,
+        "avg": 6.23,
+        "cpu": 10,
+        "node": -1
+      },
+      "44": {
+        "histogram": {      },
+        "cycles": 115920,
+        "min": 2,
+        "max": 32,
+        "avg": 6.25,
+        "cpu": 0,
+        "node": -1
+      },
+      "45": {
+        "histogram": {      },
+        "cycles": 115591,
+        "min": 2,
+        "max": 43,
+        "avg": 3.30,
+        "cpu": 1,
+        "node": -1
+      },
+      "46": {
+        "histogram": {      },
+        "cycles": 115913,
+        "min": 2,
+        "max": 25,
+        "avg": 4.41,
+        "cpu": 2,
+        "node": -1
+      },
+      "47": {
+        "histogram": {      },
+        "cycles": 115909,
+        "min": 4,
+        "max": 47,
+        "avg": 15.51,
+        "cpu": 3,
+        "node": -1
+      },
+      "48": {
+        "histogram": {      },
+        "cycles": 115907,
+        "min": 2,
+        "max": 17,
+        "avg": 5.56,
+        "cpu": 4,
+        "node": -1
+      },
+      "49": {
+        "histogram": {      },
+        "cycles": 111426,
+        "min": 3,
+        "max": 255555,
+        "avg": 48.00,
+        "cpu": 5,
+        "node": -1
+      },
+      "50": {
+        "histogram": {      },
+        "cycles": 111401,
+        "min": 2,
+        "max": 256436,
+        "avg": 204.59,
+        "cpu": 6,
+        "node": -1
+      },
+      "51": {
+        "histogram": {      },
+        "cycles": 111395,
+        "min": 3,
+        "max": 255674,
+        "avg": 78.82,
+        "cpu": 7,
+        "node": -1
+      },
+      "52": {
+        "histogram": {      },
+        "cycles": 111393,
+        "min": 3,
+        "max": 256654,
+        "avg": 141.27,
+        "cpu": 8,
+        "node": -1
+      },
+      "53": {
+        "histogram": {      },
+        "cycles": 108054,
+        "min": 3,
+        "max": 257595,
+        "avg": 434.79,
+        "cpu": 9,
+        "node": -1
+      },
+      "54": {
+        "histogram": {      },
+        "cycles": 111379,
+        "min": 3,
+        "max": 256573,
+        "avg": 240.65,
+        "cpu": 10,
+        "node": -1
+      },
+      "55": {
+        "histogram": {      },
+        "cycles": 111407,
+        "min": 2,
+        "max": 255573,
+        "avg": 68.00,
+        "cpu": 0,
+        "node": -1
+      },
+      "56": {
+        "histogram": {      },
+        "cycles": 111113,
+        "min": 2,
+        "max": 255971,
+        "avg": 50.94,
+        "cpu": 1,
+        "node": -1
+      },
+      "57": {
+        "histogram": {      },
+        "cycles": 111413,
+        "min": 2,
+        "max": 255965,
+        "avg": 54.12,
+        "cpu": 2,
+        "node": -1
+      },
+      "58": {
+        "histogram": {      },
+        "cycles": 111391,
+        "min": 2,
+        "max": 255002,
+        "avg": 49.00,
+        "cpu": 3,
+        "node": -1
+      },
+      "59": {
+        "histogram": {      },
+        "cycles": 111354,
+        "min": 2,
+        "max": 256271,
+        "avg": 180.79,
+        "cpu": 4,
+        "node": -1
+      },
+      "60": {
+        "histogram": {      },
+        "cycles": 111397,
+        "min": 2,
+        "max": 255760,
+        "avg": 50.81,
+        "cpu": 5,
+        "node": -1
+      },
+      "61": {
+        "histogram": {      },
+        "cycles": 111376,
+        "min": 3,
+        "max": 256656,
+        "avg": 111.00,
+        "cpu": 6,
+        "node": -1
+      },
+      "62": {
+        "histogram": {      },
+        "cycles": 111355,
+        "min": 3,
+        "max": 255875,
+        "avg": 87.33,
+        "cpu": 7,
+        "node": -1
+      },
+      "63": {
+        "histogram": {      },
+        "cycles": 111384,
+        "min": 3,
+        "max": 255846,
+        "avg": 91.09,
+        "cpu": 8,
+        "node": -1
+      },
+      "64": {
+        "histogram": {      },
+        "cycles": 104887,
+        "min": 3,
+        "max": 259774,
+        "avg": 490.46,
+        "cpu": 9,
+        "node": -1
+      },
+      "65": {
+        "histogram": {      },
+        "cycles": 111339,
+        "min": 3,
+        "max": 256773,
+        "avg": 305.51,
+        "cpu": 10,
+        "node": -1
+      },
+      "66": {
+        "histogram": {      },
+        "cycles": 111365,
+        "min": 2,
+        "max": 255751,
+        "avg": 77.08,
+        "cpu": 0,
+        "node": -1
+      },
+      "67": {
+        "histogram": {      },
+        "cycles": 111114,
+        "min": 2,
+        "max": 255971,
+        "avg": 53.80,
+        "cpu": 1,
+        "node": -1
+      },
+      "68": {
+        "histogram": {      },
+        "cycles": 111359,
+        "min": 2,
+        "max": 255024,
+        "avg": 57.06,
+        "cpu": 2,
+        "node": -1
+      },
+      "69": {
+        "histogram": {      },
+        "cycles": 111349,
+        "min": 2,
+        "max": 255004,
+        "avg": 49.41,
+        "cpu": 3,
+        "node": -1
+      },
+      "70": {
+        "histogram": {      },
+        "cycles": 111274,
+        "min": 3,
+        "max": 255604,
+        "avg": 103.12,
+        "cpu": 4,
+        "node": -1
+      },
+      "71": {
+        "histogram": {      },
+        "cycles": 111352,
+        "min": 3,
+        "max": 256076,
+        "avg": 74.24,
+        "cpu": 5,
+        "node": -1
+      },
+      "72": {
+        "histogram": {      },
+        "cycles": 111359,
+        "min": 3,
+        "max": 255944,
+        "avg": 59.97,
+        "cpu": 6,
+        "node": -1
+      },
+      "73": {
+        "histogram": {      },
+        "cycles": 111309,
+        "min": 2,
+        "max": 256199,
+        "avg": 145.01,
+        "cpu": 7,
+        "node": -1
+      },
+      "74": {
+        "histogram": {      },
+        "cycles": 111317,
+        "min": 3,
+        "max": 256127,
+        "avg": 113.20,
+        "cpu": 8,
+        "node": -1
+      },
+      "75": {
+        "histogram": {      },
+        "cycles": 99925,
+        "min": 3,
+        "max": 260063,
+        "avg": 187.54,
+        "cpu": 9,
+        "node": -1
+      },
+      "76": {
+        "histogram": {      },
+        "cycles": 111303,
+        "min": 3,
+        "max": 256042,
+        "avg": 64.31,
+        "cpu": 10,
+        "node": -1
+      },
+      "77": {
+        "histogram": {      },
+        "cycles": 111343,
+        "min": 3,
+        "max": 254994,
+        "avg": 46.78,
+        "cpu": 0,
+        "node": -1
+      },
+      "78": {
+        "histogram": {      },
+        "cycles": 111086,
+        "min": 2,
+        "max": 255968,
+        "avg": 61.24,
+        "cpu": 1,
+        "node": -1
+      },
+      "79": {
+        "histogram": {      },
+        "cycles": 111321,
+        "min": 2,
+        "max": 255399,
+        "avg": 60.70,
+        "cpu": 2,
+        "node": -1
+      },
+      "80": {
+        "histogram": {      },
+        "cycles": 111251,
+        "min": 6,
+        "max": 255027,
+        "avg": 68.39,
+        "cpu": 3,
+        "node": -1
+      },
+      "81": {
+        "histogram": {      },
+        "cycles": 111140,
+        "min": 3,
+        "max": 256783,
+        "avg": 211.91,
+        "cpu": 4,
+        "node": -1
+      },
+      "82": {
+        "histogram": {      },
+        "cycles": 111298,
+        "min": 3,
+        "max": 255298,
+        "avg": 57.42,
+        "cpu": 5,
+        "node": -1
+      },
+      "83": {
+        "histogram": {      },
+        "cycles": 111294,
+        "min": 3,
+        "max": 256132,
+        "avg": 83.72,
+        "cpu": 6,
+        "node": -1
+      },
+      "84": {
+        "histogram": {      },
+        "cycles": 111275,
+        "min": 2,
+        "max": 255367,
+        "avg": 159.33,
+        "cpu": 7,
+        "node": -1
+      },
+      "85": {
+        "histogram": {      },
+        "cycles": 111280,
+        "min": 3,
+        "max": 256308,
+        "avg": 221.32,
+        "cpu": 8,
+        "node": -1
+      },
+      "86": {
+        "histogram": {      },
+        "cycles": 93592,
+        "min": 3,
+        "max": 260189,
+        "avg": 345.28,
+        "cpu": 9,
+        "node": -1
+      },
+      "87": {
+        "histogram": {      },
+        "cycles": 111264,
+        "min": 3,
+        "max": 256235,
+        "avg": 134.97,
+        "cpu": 10,
+        "node": -1
+      },
+      "88": {
+        "histogram": {      },
+        "cycles": 111282,
+        "min": 2,
+        "max": 255121,
+        "avg": 96.70,
+        "cpu": 0,
+        "node": -1
+      },
+      "89": {
+        "histogram": {      },
+        "cycles": 110919,
+        "min": 2,
+        "max": 256970,
+        "avg": 252.77,
+        "cpu": 1,
+        "node": -1
+      },
+      "90": {
+        "histogram": {      },
+        "cycles": 111284,
+        "min": 2,
+        "max": 255467,
+        "avg": 72.96,
+        "cpu": 2,
+        "node": -1
+      },
+      "91": {
+        "histogram": {      },
+        "cycles": 111127,
+        "min": 10,
+        "max": 255030,
+        "avg": 72.18,
+        "cpu": 3,
+        "node": -1
+      },
+      "92": {
+        "histogram": {      },
+        "cycles": 111071,
+        "min": 2,
+        "max": 256001,
+        "avg": 61.85,
+        "cpu": 4,
+        "node": -1
+      },
+      "93": {
+        "histogram": {      },
+        "cycles": 111261,
+        "min": 2,
+        "max": 255500,
+        "avg": 134.90,
+        "cpu": 5,
+        "node": -1
+      },
+      "94": {
+        "histogram": {      },
+        "cycles": 111253,
+        "min": 2,
+        "max": 256300,
+        "avg": 130.25,
+        "cpu": 6,
+        "node": -1
+      },
+      "95": {
+        "histogram": {      },
+        "cycles": 111216,
+        "min": 3,
+        "max": 255523,
+        "avg": 74.52,
+        "cpu": 7,
+        "node": -1
+      },
+      "96": {
+        "histogram": {      },
+        "cycles": 111243,
+        "min": 3,
+        "max": 256508,
+        "avg": 299.90,
+        "cpu": 8,
+        "node": -1
+      },
+      "97": {
+        "histogram": {      },
+        "cycles": 86380,
+        "min": 3,
+        "max": 261285,
+        "avg": 477.96,
+        "cpu": 9,
+        "node": -1
+      },
+      "98": {
+        "histogram": {      },
+        "cycles": 111185,
+        "min": 3,
+        "max": 256173,
+        "avg": 92.02,
+        "cpu": 10,
+        "node": -1
+      },
+      "99": {
+        "histogram": {      },
+        "cycles": 110333,
+        "min": 6,
+        "max": 260140,
+        "avg": 116.54,
+        "cpu": 0,
+        "node": -1
+      }
+    }
+  }
+  
